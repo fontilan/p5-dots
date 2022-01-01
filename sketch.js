@@ -5,9 +5,9 @@ function setup() {
 
 function draw() {
   background(240);
-  for (let i = 10; i < Math.floor(windowSize); i = i + windowSize / 29) {
-    for (let j = 10; j < Math.floor(windowSize); j = j + windowSize / 29) {
-      strokeWeight(random(windowSize / 175, windowSize / 35));
+  for (let i = 10; i < windowSize * 0.99; i = i + windowSize / 39) {
+    for (let j = 10; j < windowSize * 0.99; j = j + windowSize / 99) {
+      strokeWeight(random(windowSize / 105, windowSize / 45));
       stroke(random(0, 150), 26, 105);
       point(i, j);
     }
