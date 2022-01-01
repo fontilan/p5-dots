@@ -1,5 +1,5 @@
 function setup() {
-  windowSize = min(windowWidth * 0.6, windowHeight * 0.6);
+  windowSize = min(windowWidth * 0.75, windowHeight * 0.75);
   createCanvas(windowSize, windowSize);
 }
 
