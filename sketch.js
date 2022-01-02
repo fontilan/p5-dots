@@ -6,8 +6,8 @@ function setup() {
 // Just dots
 //
 function draw() {
-  for (let i = 10; i < canvasSize * 0.99; i = i + canvasSize / 29) {
-    for (let j = 10; j < canvasSize * 0.99; j = j + canvasSize / 29) {
+  for (let i = 10; i < canvasSize * 0.98; i = i + canvasSize / 29) {
+    for (let j = 10; j < canvasSize * 0.98; j = j + canvasSize / 29) {
       strokeWeight(random(canvasSize / 175, canvasSize / 35));
       stroke(random(0, 150), 26, 105);
       point(i, j);
