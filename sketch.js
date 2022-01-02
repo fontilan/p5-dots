@@ -5,16 +5,16 @@ function setup() {
 
 // Just dots
 //
-// function draw() {
-//   for (let i = 10; i < windowSize * 0.99; i = i + windowSize / 29) {
-//     for (let j = 10; j < windowSize * 0.99; j = j + windowSize / 29) {
-//       strokeWeight(random(windowSize / 175, windowSize / 35));
-//       stroke(random(0, 150), 26, 105);
-//       point(i, j);
-//     }
-//   }
-//   noLoop();
-// }
+function draw() {
+  for (let i = 10; i < windowSize * 0.99; i = i + windowSize / 29) {
+    for (let j = 10; j < windowSize * 0.99; j = j + windowSize / 29) {
+      strokeWeight(random(windowSize / 175, windowSize / 35));
+      stroke(random(0, 150), 26, 105);
+      point(i, j);
+    }
+  }
+  noLoop();
+}
 
 //Hanging beads
 //
@@ -44,13 +44,13 @@ function setup() {
 
 // Fluffy square
 //
-function draw() {
-  for (let i = 20; i < windowSize * 0.97; i = i + windowSize / 75) {
-    for (let j = 20; j < windowSize * 0.97; j = j + windowSize / 75) {
-      strokeWeight(random(windowSize / 80, windowSize / 20));
-      stroke(random(0, 150), 26, 105);
-      point(i, j);
-    }
-  }
-  noLoop();
-}
+// function draw() {
+//   for (let i = 20; i < windowSize * 0.97; i = i + windowSize / 75) {
+//     for (let j = 20; j < windowSize * 0.97; j = j + windowSize / 75) {
+//       strokeWeight(random(windowSize / 80, windowSize / 20));
+//       stroke(random(0, 150), 26, 105);
+//       point(i, j);
+//     }
+//   }
+//   noLoop();
+// }
