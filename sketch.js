@@ -54,3 +54,16 @@ function draw() {
 //   }
 //   noLoop();
 // }
+
+// Sea of Purple
+//
+// function draw() {
+//   for (let i = 10; i < canvasSize + 100; i = i + canvasSize / 99) {
+//     for (let j = 10; j < canvasSize * 0.99; j = j + canvasSize / 99) {
+//       strokeWeight(random(canvasSize / 80, canvasSize / 5));
+//       stroke(random(0, 150), 26, 105);
+//       point(j, i);
+//     }
+//   }
+//   noLoop();
+// }
