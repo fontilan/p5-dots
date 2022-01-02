@@ -29,7 +29,7 @@ function draw() {
   }
 }
 
-//Hanging beads
+// Hanging beads
 //
 // function draw() {
 //   for (let i = 10; i < canvasSize * 0.99; i = i + canvasSize / 39) {
@@ -78,7 +78,7 @@ function draw() {
 // }
 
 // Triangle of cirlces
-// //
+//
 // function draw() {
 //   rotate(QUARTER_PI);
 //   for (let i = 40; i < canvasSize; i = i + canvasSize / 29) {
