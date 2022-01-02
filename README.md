@@ -12,4 +12,4 @@ Included in the sketch.js file are 6 versions of the config, that produce the fo
 
 ![010205](https://user-images.githubusercontent.com/68748054/147875776-9c81a6bd-ee46-4d99-838c-418b63a8b56d.png)
 
-![010206](https://user-images.githubusercontent.com/68748054/147875778-f69d089f-1372-4682-a10b-9704928df56e.png)
+![010206](https://user-images.githubusercontent.com/68748054/147884565-d68a2f73-7aec-40ec-9fce-37c385beff25.png)
